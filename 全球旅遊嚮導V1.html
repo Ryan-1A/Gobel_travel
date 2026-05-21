@@ -927,7 +927,7 @@
             btn.disabled = true;
             document.getElementById('aiErrorMsg').classList.add('hidden');
 
-            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent?key=${currentApiKey}`;
+            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent?key=${currentApiKey}`;
             const systemPrompt = `
             You are a Worldwide Travel Guide API. Generate a travel itinerary JSON based on the user's request.
             RULES:
